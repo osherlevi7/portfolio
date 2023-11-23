@@ -30,8 +30,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/osherlevi7/">
-    <img src="/portfolio/images/me.jpg" alt="Logo" width="80" height="80">
+  <a href="https://main.dc6bx2cr0xgnc.amplifyapp.com/#">
+    <img src="./images/me.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Protfolio Repo</h3>
