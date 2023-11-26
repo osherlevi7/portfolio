@@ -31,13 +31,13 @@
 <br />
 <div align="center">
   <a href="https://main.dc6bx2cr0xgnc.amplifyapp.com/#">
-    <img src="./images/me.jpg" alt="Logo" width="80" height="80">
+    <img src="images/me.jpg" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Protfolio Repo</h3>
+<h3 align="center">Portfolio Repo</h3>
 
   <p align="center">
-    A source code for my protfolio
+    A source code for my portfolio
     <br />
     <a href="https://github.com/osherlevi7/protfolio/README.md"><strong>Explore the docs »</strong></a>
     <br />
@@ -50,9 +50,6 @@
   </p>
 </div>
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
@@ -63,10 +60,8 @@
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- ROADMAP -->
 ## Roadmap
-
 - [X] Intro about me
 - [X] My CV 
 - [X] Projects source code 
@@ -77,8 +72,6 @@
 
 See the [open issues](https://github.com/osherlevi7/protfolio/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -87,19 +80,6 @@ See the [open issues](https://github.com/osherlevi7/protfolio/issues) for a full
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
