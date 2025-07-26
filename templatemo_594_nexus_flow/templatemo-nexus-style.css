@@ -1011,6 +1011,31 @@ https://templatemo.com/tm-594-nexus-flow
             margin-bottom: 5rem;
         }
 
+        .contact-logo {
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contact-logo-image {
+            height: 80px;
+            width: auto;
+            filter: drop-shadow(0 0 15px var(--primary-cyan));
+            transition: all 0.3s ease;
+            animation: contactLogoFloat 3s ease-in-out infinite;
+        }
+
+        .contact-logo-image:hover {
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 25px var(--primary-cyan));
+        }
+
+        @keyframes contactLogoFloat {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
         .section-title {
             font-size: 3rem;
             font-weight: 800;
@@ -1501,6 +1526,10 @@ https://templatemo.com/tm-594-nexus-flow
             
             .contact {
                 padding: 80px 1rem;
+            }
+            
+            .contact-logo-image {
+                height: 60px;
             }
             
             .contact-form {

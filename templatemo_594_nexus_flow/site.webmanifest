@@ -1,0 +1,22 @@
+{
+    "name": "LionFish Consultant",
+    "short_name": "LionFish",
+    "description": "IT, DevOps & Cybersecurity Services with deep expertise in healthcare systems",
+    "icons": [
+        {
+            "src": "images/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#06b6d4",
+    "background_color": "#020617",
+    "display": "standalone",
+    "start_url": "/",
+    "scope": "/"
+} 
