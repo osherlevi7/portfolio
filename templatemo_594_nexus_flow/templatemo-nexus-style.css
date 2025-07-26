@@ -455,13 +455,21 @@ https://templatemo.com/tm-594-nexus-flow
         }
 
         .mobile-menu-logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
             font-size: 1.5rem;
             font-weight: 700;
             color: var(--primary-cyan);
             text-shadow: 0 0 15px var(--primary-cyan);
             text-decoration: none;
-            display: inline-block;
             transition: all 0.3s ease;
+        }
+
+        .mobile-menu-logo .logo-image {
+            height: 30px;
+            width: auto;
+            filter: drop-shadow(0 0 6px var(--primary-cyan));
         }
 
         .mobile-menu-logo::before {
@@ -663,6 +671,9 @@ https://templatemo.com/tm-594-nexus-flow
         }
 
         .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
             font-size: 1.8rem;
             font-weight: 700;
             color: var(--primary-cyan);
@@ -670,8 +681,18 @@ https://templatemo.com/tm-594-nexus-flow
             position: relative;
             cursor: pointer;
             text-decoration: none;
-            display: inline-block;
             transition: all 0.3s ease;
+        }
+
+        .logo-image {
+            height: 40px;
+            width: auto;
+            filter: drop-shadow(0 0 8px var(--primary-cyan));
+            transition: all 0.3s ease;
+        }
+
+        .logo-text {
+            display: inline-block;
         }
 
         .logo:hover {
@@ -1434,6 +1455,14 @@ https://templatemo.com/tm-594-nexus-flow
             
             .nav-links {
                 display: none;
+            }
+            
+            .logo-image {
+                height: 32px;
+            }
+            
+            .mobile-menu-logo .logo-image {
+                height: 28px;
             }
             
             .nav-bottom .cyber-button {
