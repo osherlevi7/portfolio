@@ -1127,6 +1127,112 @@ https://templatemo.com/tm-594-nexus-flow
             color: var(--primary-cyan);
         }
 
+        /* Compliance Pages Styling */
+        .hipaa-compliance,
+        .gdpr-compliance {
+            padding: 120px 2rem 80px;
+            position: relative;
+        }
+
+        .hipaa-container,
+        .gdpr-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .compliance-content {
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid var(--border-color);
+            padding: 3rem;
+            border-radius: 12px;
+        }
+
+        .compliance-section {
+            margin-bottom: 2.5rem;
+        }
+
+        .compliance-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .compliance-section h2 {
+            color: var(--primary-cyan);
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: 0 0 10px rgba(8, 145, 178, 0.3);
+        }
+
+        .compliance-section h3 {
+            color: var(--faded-cyan);
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.8rem 0;
+        }
+
+        .compliance-section h4 {
+            color: var(--faded-cyan);
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 1rem 0 0.5rem 0;
+        }
+
+        .compliance-section p {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .compliance-section ul {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+        }
+
+        .compliance-section li {
+            margin-bottom: 0.5rem;
+        }
+
+        .compliance-highlight {
+            background: rgba(8, 145, 178, 0.1);
+            border: 1px solid var(--faded-cyan);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        .compliance-highlight h3 {
+            color: var(--primary-cyan);
+            margin-top: 0;
+        }
+
+        .certification-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .certification-item {
+            background: rgba(8, 145, 178, 0.05);
+            border: 1px solid var(--faded-cyan);
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .certification-item h4 {
+            color: var(--primary-cyan);
+            margin-top: 0;
+        }
+
+        .certification-item p {
+            margin-bottom: 0;
+        }
+
         .section-title {
             font-size: 3rem;
             font-weight: 800;
@@ -1641,6 +1747,23 @@ https://templatemo.com/tm-594-nexus-flow
             .policy-section h3,
             .terms-section h3 {
                 font-size: 1.1rem;
+            }
+            
+            .compliance-content {
+                padding: 2rem;
+                margin: 0 1rem;
+            }
+            
+            .compliance-section h2 {
+                font-size: 1.5rem;
+            }
+            
+            .compliance-section h3 {
+                font-size: 1.1rem;
+            }
+            
+            .certification-grid {
+                grid-template-columns: 1fr;
             }
             
             .footer-links {
