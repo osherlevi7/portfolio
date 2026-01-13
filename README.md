@@ -24,6 +24,7 @@
 [![Issues][issues-shield]](https://github.com/osherlevi7/portfolio/issues)
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]](linkedin.com/in/osher-levi-49794a1ab)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fosherlevi7%2Fportfolio.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fosherlevi7%2Fportfolio?ref=badge_shield)
 
 
 
@@ -127,3 +128,6 @@ Project Link: [https://github.com/osherlevi7/protfolio](https://github.com/osher
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fosherlevi7%2Fportfolio.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fosherlevi7%2Fportfolio?ref=badge_large)
